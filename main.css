@@ -1,0 +1,25 @@
+main + a {
+  text-transform: uppercase;
+}
+/*sibling selector, targets a outside of main*/
+
+main > a {
+  color: goldenrod;
+  font-size: 2rem;
+}
+/*targets all <a> that are direct children of main*/
+
+.example-grandchild {
+  color: red;
+}
+
+a.example-grandchild#reddit {
+  font-size: 3rem;
+}
+
+/*
+a.example-grandchild {
+  font-size: 3rem;
+}
+adding #id makes it more specific, more specificity=more likely your rule will be applied
+*/
