@@ -4,26 +4,39 @@ body {
 
 div {
   height: 150px;
-  width: 100%;
+  width: 80px;
   background-color: crimson;
-  position: relative;
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40px, -75px);
 }
 
 main {
-  width: 100%;
+  width: 80px;
   height: 50px;
   background-color: burlywood;
 }
 
 article {
-  width: 100%;
+  width: 80px;
   height: 20px;
   background-color: #000;
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
+
+/*
+center to page: transform: translate (x, y) where x and y are half the height and width
+
+div {
+  height: 150px;
+  width: 80px;
+  background-color: crimson;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40px, -75px);
+}*/
+
 
 
 /*positioning is relative to parent
