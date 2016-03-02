@@ -1,13 +1,53 @@
-.image-number::before {
+body {
+  margin: 100px 0 100px;
+}
+
+div {
+  height: 150px;
+  width: 100%;
+  background-color: crimson;
+  position: relative;
+
+}
+
+main {
+  width: 100%;
+  height: 50px;
+  background-color: burlywood;
+}
+
+article {
+  width: 100%;
+  height: 20px;
+  background-color: #000;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+
+/*positioning is relative to parent
+make thing you want to position as absolute and the container relative*/
+
+
+/*
+main {
+  width: 100%;
+  height: 50px;
+  background-color: burlywood;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+}*/
+
+/*.image-number::before {
   content: "$"
 }
 /*adds the content to specified location*/
 
 /*.dropcap::first-letter {
   font-size: 3rem;
-}
-
-
+}*/
 
 
 
