@@ -1,25 +1,36 @@
-main + a {
-  text-transform: uppercase;
+a:first-child {
+  color: chartreuse;
 }
-/*sibling selector, targets a outside of main*/
 
-main > a {
-  color: goldenrod;
-  font-size: 2rem;
+a:nth-child(3){
+  color: coral;
 }
-/*targets all <a> that are direct children of main*/
 
-.example-grandchild {
+a:last-child {
+  color: burlywood;
+}
+
+a:nth-last-child(2) {
+  color: crimson;
+}
+
+
+
+
+/*a {
+  text-decoration: none;
+}
+
+a:visited {
+  color:chartreuse;
+}
+
+a:hover {
+  font-style: italic;
+  font-family: Helvetica;
   color: red;
+  font-size: 2rem;
+  background-color: yellow;
 }
 
-a.example-grandchild#reddit {
-  font-size: 3rem;
-}
-
-/*
-a.example-grandchild {
-  font-size: 3rem;
-}
-adding #id makes it more specific, more specificity=more likely your rule will be applied
-*/
+/*order importance: if a:visited comes after a:hover then the red color in a:hover won't show up*/*/
