@@ -1,36 +1,22 @@
-a:first-child {
-  color: chartreuse;
+.image-number::before {
+  content: "$"
 }
+/*adds the content to specified location*/
 
-a:nth-child(3){
-  color: coral;
-}
-
-a:last-child {
-  color: burlywood;
-}
-
-a:nth-last-child(2) {
-  color: crimson;
+/*.dropcap::first-letter {
+  font-size: 3rem;
 }
 
 
 
 
-/*a {
-  text-decoration: none;
+
+
+
+/*a:nth-child(even) {
+  color:burlywood;
 }
 
-a:visited {
-  color:chartreuse;
-}
-
-a:hover {
-  font-style: italic;
-  font-family: Helvetica;
-  color: red;
-  font-size: 2rem;
-  background-color: yellow;
-}
-
-/*order importance: if a:visited comes after a:hover then the red color in a:hover won't show up*/*/
+a:nth-child(odd) {
+  color:crimson;
+}*/
